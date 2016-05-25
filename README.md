@@ -1,22 +1,9 @@
-# npm-es6-boilerplate
+# compare-with-file
 
-Use this boilerplate to get up and running quickly.
+Compare the contents of a file with a string.
 
+```js
+import { fileMatches } from 'compare-with-file';
 
-# guide
-
-Write your es6 in `./src`.
-
-Write your tests in `./test`.
-
-Build with `npm run build`.
-
-Test with `npm test`.
-
-
-## npm scripts
-
-* **lint** - runs eslint on `./src` and `./test`
-* **test** - runs tests in `./test` with Mocha
-* **build** - transpiles `./src` to `./lib`
-* **prepublish** - automatically runs when publishing to build `./lib`
+fileMatches(filePath, 'expected contents'); // returns Boolean
+```

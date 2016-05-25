@@ -1,8 +1,8 @@
 {
   "name": "compare-with-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "compare a string with the contets of a file",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register",
     "lint": "eslint .",
