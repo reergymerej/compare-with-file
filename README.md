@@ -1,4 +1,4 @@
-# compare-with-file <small>v1.0.2</small>
+# compare-with-file <small>v1.0.3</small>
 
 Compare the contents of a file with a string.
 
