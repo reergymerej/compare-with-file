@@ -19,6 +19,11 @@ describe('comparing with file content', () => {
   });
 });
 
-describe('When the file cannot be read', () => {
-  it('should throw');
+describe('trying to compare a missing file', () => {
+  it('should throw', () => {
+    const filePath = path.join(__dirname, 'missing.txt');
+    will(() => {
+      app.fileMatches(filePath, '');
+    }).throw();
+  });
 });
