@@ -1,6 +1,6 @@
 {
   "name": "compare-with-file",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "compare a string with the contents of a file",
   "main": "lib/index.js",
   "scripts": {
