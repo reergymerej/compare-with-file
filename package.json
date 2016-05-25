@@ -1,7 +1,7 @@
 {
   "name": "compare-with-file",
   "version": "1.0.0",
-  "description": "Use this boilerplate to get up and running quickly.",
+  "description": "compare a string with the contets of a file",
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register",
